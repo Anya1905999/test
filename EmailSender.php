@@ -43,7 +43,7 @@ class EmailSender
     }
 
     // Если нужно обработать какие-то данные
-    public function handler($sessionId, $termID, $checkSum)
+    public function handler()
     {
         $hostname = 'smtp.mail.ru';
         $port = 465; // порт для SMTPS (SSL)
